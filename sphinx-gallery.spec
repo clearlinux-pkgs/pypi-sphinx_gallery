@@ -4,7 +4,7 @@
 #
 Name     : sphinx-gallery
 Version  : 0.10.1
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/ca/ae/b40d475572cf93b6c27440ad15b9be05f1e8d0e65f3097ca757aa0155c63/sphinx-gallery-0.10.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ca/ae/b40d475572cf93b6c27440ad15b9be05f1e8d0e65f3097ca757aa0155c63/sphinx-gallery-0.10.1.tar.gz
 Summary  : A Sphinx extension that builds an HTML version of any Python script and puts it into an examples gallery.
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1637346350
+export SOURCE_DATE_EPOCH=1641427521
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
