@@ -4,7 +4,7 @@
 #
 Name     : pypi-sphinx_gallery
 Version  : 0.10.1
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/ca/ae/b40d475572cf93b6c27440ad15b9be05f1e8d0e65f3097ca757aa0155c63/sphinx-gallery-0.10.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ca/ae/b40d475572cf93b6c27440ad15b9be05f1e8d0e65f3097ca757aa0155c63/sphinx-gallery-0.10.1.tar.gz
 Summary  : A Sphinx extension that builds an HTML version of any Python script and puts it into an examples gallery.
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653060102
+export SOURCE_DATE_EPOCH=1656370212
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -111,7 +111,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 python3 -tt setup.py build install --root=%{buildroot}-v3
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
