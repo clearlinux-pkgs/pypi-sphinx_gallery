@@ -1,5 +1,5 @@
 PKG_NAME := pypi-sphinx_gallery
-URL = https://files.pythonhosted.org/packages/a8/fc/afffbf7d5ae709f0f18d1ce06a1b2a300b72bac13248194e1a51af247c62/sphinx-gallery-0.11.1.tar.gz
+URL = https://files.pythonhosted.org/packages/bf/9a/5976534027c465a0b648d3ac27e6cb71e3bc4ef68fc42f7090a773fe7a96/sphinx-gallery-0.12.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
