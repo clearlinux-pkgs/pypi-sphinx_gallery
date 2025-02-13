@@ -7,7 +7,7 @@
 #
 Name     : pypi-sphinx_gallery
 Version  : 0.19.0
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/cd/e5/9ccd6ecd492043123adb465cba504217b9f0a82e2cb5b1d7249c648497c6/sphinx_gallery-0.19.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cd/e5/9ccd6ecd492043123adb465cba504217b9f0a82e2cb5b1d7249c648497c6/sphinx_gallery-0.19.0.tar.gz
 Summary  : A Sphinx extension that builds an HTML gallery of examples from any set of Python scripts.
